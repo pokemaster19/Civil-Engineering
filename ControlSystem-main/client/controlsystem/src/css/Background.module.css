@@ -1,0 +1,24 @@
+.background{
+    background: -webkit-linear-gradient(0deg, #03040c,#030417,#0c0326);
+    background: linear-gradient(0deg, #03040c,#030417,#0c0326);
+    min-height: 100vh;
+}
+
+.contentParent{
+    padding-top: 40px;
+    width: 90%;
+    background: #F9F9F9;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    flex-grow: 1;
+    min-height: calc(100vh - 64px);
+}
+
+@media (max-width: 600px){
+    .background{
+        background: #F9F9F9;
+    }
+}
